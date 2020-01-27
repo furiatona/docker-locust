@@ -1,0 +1,5 @@
+SLAVE_COUNT=3
+REGISTRY=furiatona
+LOCUSTFILES=locustfiles
+SVC=docker-locust
+TARGET_HOST=http://pimock:8080

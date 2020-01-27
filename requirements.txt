@@ -1,0 +1,3 @@
+locustio==0.13.5
+cffi==1.13.2
+pyJWT==1.7.1
