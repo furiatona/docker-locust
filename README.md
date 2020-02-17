@@ -30,5 +30,18 @@ Stop and clean up
 make stop-all
 ```
 
+FAQ
+---------------
+<details>
+<summary>Need more python library but don't want to re-build an image?</summary>
+<p>Add file requirements.txt in locustfiles folder</p>
+</details>
+
+<details>
+<summary>How to automatically set target host?</summary>
+<p>Specify [target host] in your locustfile</p>
+</details>
+
 [locust.io]: <http://locust.io>
 [docker engine]: <https://docs.docker.com/engine/installation/>
+[target host]: <https://github.com/furiatona/docker-locust/blob/master/locustfiles/locustfile.py#L19>
