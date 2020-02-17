@@ -39,9 +39,9 @@ FAQ
 
 <details>
 <summary>How to automatically set target host?</summary>
-<p>Specify [target host] in your locustfile</p>
+<p>Specify host attribute in the locust class:<br>
+https://github.com/furiatona/docker-locust/blob/master/locustfiles/locustfile.py#L19</p>
 </details>
 
 [locust.io]: <http://locust.io>
 [docker engine]: <https://docs.docker.com/engine/installation/>
-[target host]: <https://github.com/furiatona/docker-locust/blob/master/locustfiles/locustfile.py#L19>
